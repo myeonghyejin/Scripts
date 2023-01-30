@@ -1,0 +1,20 @@
+-- Table 생성
+
+-- 이름, 전화 번호, 이메일, 나이
+
+CREATE TABLE TEST (
+	NAME VARCHAR2(100), 
+	NUM VARCHAR2(100),
+	EMAIL VARCHAR2(100),
+	AGE NUMBER(3)
+);
+
+SELECT *
+FROM TEST;
+
+INSERT INTO TEST
+VALUES ('a', 1, 'a@gmail.com', 17);
+
+DROP TABLE TEST;
+
+
